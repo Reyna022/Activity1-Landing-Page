@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(bg1.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+
+    color: darksalmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+}
+.menu a:hover{
+    border: 1px solid indianred;
+    background: transparent
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+}
+.register a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    font-size: 300%;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 1px black;
+}
+.h-text h1{
+    font-size: 3.5em;
+    -webkit-text-stroke: 1px black;
+}
+.h-text a{
+    text-decoration: none;
+    background: indianred;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+/*===upgrade ==*/
+.hero {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background:radial-gradient(rgb(124, 211, 124), rgb(10, 150, 57));
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h2{
+    color: white;
+    font-size: 300%;
+    -webkit-text-stroke: 2px rgb(22, 112, 44);
+    padding-top: 10%;
+}
+.hero h3{
+    padding: 2%;
+}
+.name-text {
+    color: black;
+    padding: 5px 5px;
+    margin: 10px 10% 10PX 10%;
+}
+.about {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background:radial-gradient(rgb(124, 211, 124), rgb(10, 150, 57));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about h2{
+    color: white;
+    font-size: 300%;
+    -webkit-text-stroke: 2px rgb(22, 112, 44);
+}
+.about-text{
+    color: black;
+    padding: 5px 5px;
+    margin: 10px 10% 10PX 10%;
+}
+.about h3{
+    margin-top: 10%;
+    padding: 2%;
+}
+/*==========CONTACT===========*/
+.contact {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background:radial-gradient(rgb(124, 211, 124), rgb(10, 150, 57));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact h2{
+    color: white;
+    font-size: 300%;
+    -webkit-text-stroke: 2px rgb(22, 112, 44);
+}
+.contact h3{
+    padding: 2%;
+}
+/**/
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+.contact form .input-box input, .contact form textarea{
+    width: 100%;
+    padding: 1%;
+    font-size: 1.8rem;
+    color: rgb(23, 56, 31);
+    background-color: rgb(22, 112, 44);
+    border-radius: 2rem;
+    border: 2px solid rgb(22, 112, 44);
+    margin: 1.5rem 0;
+    resize: none;
+}
+/*==========FOOTER BAR===========*/
+.footer{
+    background: rgb(22, 112, 44);
+    padding: 50px 0;
+}
+.footer .social-icons{
+    text-align: center;
+}
+.footer ul{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid green;
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
